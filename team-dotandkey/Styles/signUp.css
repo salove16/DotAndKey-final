@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.CreateAccount{
+    text-align: center;
+    /* border: solid; */
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 8%;
+    border-bottom: 1px solid black;
+}
+
+#account2{
+    line-height:37.8px;
+    width: 25%;
+    font-size: 27px;
+    margin: 2% auto 5% auto;
+    font-weight: 700;
+    font-family: Ubuntu, sans-serif;
+    cursor: pointer;
+    /* border: solid; */
+}
+
+#facebook{
+    background-color: rgb(66,103,178);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px auto 3px auto;
+    padding:12px 10px 12px 40px;
+    width: 25%;
+    height: 100%;
+    cursor: pointer;
+    /* border: solid yellow; */
+}
+
+#google{
+    background-color: rgb(221,75,57);
+    text-align: center;
+    color: white;
+    width: 25%;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px auto 40px auto;
+    padding:12px 10px 12px 40px;
+    cursor: pointer;
+    /* border: solid green; */
+}
+
+#form{
+    width: 25%;
+    margin: auto;
+    font-size:14px;
+    line-height:19.6001px;
+    font-weight: 700;
+    letter-spacing:2.80001px;
+    font-family:Montserrat, sans-serif;
+    cursor: pointer;
+    /* border: solid gold; */
+    /* padding:6px 10px 6px 40px; */
+}
+
+#form label, #form input{
+    display: block;
+    width: 100%;
+    text-align: start;
+    padding:15px 0px;
+}
+
+#email{
+    color: black;
+    /* border: solid red; */
+    font-weight: 700;
+}
+
+#inputOne{
+    color: black;
+    border: solid pink;
+}
+
+#password{
+    color: black;
+    /* border: solid blueviolet; */
+    font-weight: 700;
+}
+
+#signin button{
+    background-color: rgb(60,60,60);
+    color: white;
+}
+
+#button1{
+    background-color: rgb(60,60,60);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    margin: 0px auto 40px auto;
+    padding:12px 10px 12px 40px;
+    /* border: solid greenyellow; */
+    margin-top: 8%;
+    text-align: center;
+    line-height:19.6001px;
+}

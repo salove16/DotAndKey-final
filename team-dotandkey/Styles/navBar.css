@@ -1,0 +1,87 @@
+#navInterval{
+  width: 100%;
+  height: 30px;
+  background-color: #3C3C3C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+#Sign_Out,#cartBag{
+  cursor: pointer;
+}
+#navbar {
+    width: 100%;
+    height: 114px;
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    position: sticky;
+    top: 30px;
+    background-color: white;
+    align-self: stretch;
+    border-bottom: 1px solid #c3c3c3;
+    z-index: 200;
+  }
+  #navbar > div:nth-child(1) {
+    width: 55%;
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #leftNav > i {
+    margin-top: 45px;
+    font-size: 26px;
+    color: #3c3c3c;
+  }
+  #leftNav > img {
+    height: 75%;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  #user{
+    cursor: pointer;
+  }
+  #rightNav {
+    width: 30%;
+    display: flex;
+    height: 32%;
+    flex-direction: row;
+    gap: 10%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+  }
+  #rightNav > i {
+    font-size: 24px;
+    color: #3c3c3c;
+    cursor: pointer;
+  }
+  #rightNav >div > i{
+    font-size: 24px;
+    color: #3c3c3c;
+    margin-top: 5px;
+  }
+  #rightNav > div {
+    
+    letter-spacing: 0.05em;
+    line-height: 1.9;
+    font-size: 18px;
+    display: inline-flex;
+    color: #3c3c3c;
+    padding: 0 10px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5%;
+  }
+  #search>input{
+    border: 0px;
+    width: 100%;
+    color: #3c3c3c;
+    letter-spacing: 0.05em;
+    line-height: 1.9;
+    font-size: 18px;
+    border-radius: 5%;
+  }

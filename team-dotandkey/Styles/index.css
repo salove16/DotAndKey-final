@@ -1,0 +1,584 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap'); */
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cards{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   grid-gap: 25px;
+   /* border: 1px solid red; */
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+#cards>div{
+    border-radius: 8px;
+    height: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card_imgs>img{
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+.cards_text>h2{
+text-align: center;
+text-transform: uppercase;
+font-size: medium;
+font-weight: bold;
+}
+.cards_text{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+/*-----------------------------------------------------carousel--------------------------------------- */
+/* .carousel-indicators{
+    border: 1px solid green;
+    
+} */
+.carousel-indicators>#rbtn{
+    /* border:  1px solid red; */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
+.carousel-item>img{
+    border-radius: 20px;
+}
+/*-------------------------------------------------- loved by------------------------------------- */
+#loved_by{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+#loved_by>h1{
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+#loved_by>h1>span{
+    font-style: italic;
+    font-weight: 600;
+}
+#loved_by>h3{
+    margin-top: 60px;
+}
+/* -----------------------------------------------5 in kit--------------------------------------------- */
+#kitcar{
+   width: 90%;
+   margin: auto;
+}
+#best_seller{
+    text-align: center;
+}
+#best_seller>p{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: -4px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+#best_seller>h1{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+#best_seller>h3>span{
+    color: #FF6781;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+#best_seller>h3{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    color: #808080;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+/*---------------------------------------------spot light-------------------------------------------------- */
+#spot_light{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    /* border: 1px solid green; */
+}
+#spot_light>h1{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+#spot_light>p{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -4px;
+    font-size: 20px;
+}
+#spot_light{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#spot_light_container{
+    width: 100%;
+    margin-top: 30px;
+    /* border: 1px solid green; */
+}
+#spot_light_img{
+    width: 88%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#spot_light_img{
+    display: flex;
+}
+#spot_light_img>.box1{
+    width: 37%;
+    margin-right: 1%;
+    border-radius: 10px;
+    /* height: 150%; */
+}
+#spot_light_img>.box1>img{
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+#spot_light_img>.box2{
+    width: 62%;
+    border-radius: 15px;
+}
+#spot_light_img>.box2>img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*------------------------------------------------------- spotlight 2------------------------------- */
+#spot_light_container2{
+    width: 100%;
+    margin-top: 0.8%;
+    /* border: 1px solid green; */
+   
+}
+#spot_light_img2{
+    width: 88%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+   
+}
+#spot_light_img2{
+    display: flex;
+}
+#spot_light_img2>.box1{
+    width: 62%;
+    margin-right: 1%;
+    border-radius: 10px;
+    /* height: 150%; */
+}
+#spot_light_img2>.box1>img{
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+#spot_light_img2>.box2{
+    width: 37%;
+    border-radius: 15px;
+}
+#spot_light_img2>.box2>img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* -------------------------------------------ikwi-------------------------------------------------------- */
+#ikwi_container{
+    width: 100%;
+}
+#ikwi_img{
+    width: 88%;
+    margin:60px auto;
+}
+#ikwi_img>img{
+    width: 100%;
+    border-radius: 20px;
+}
+/* --------------------------------------shop by container-------------------------------------------------- */
+#shop_by_container{
+    text-align: center;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+}
+#shop_by_container>p{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -4px;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+}
+#shop_by_container>h1{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* ----------------------------------shop by container images-------------------------------------------- */
+#shop_by_img_container{
+    width:  100%;
+    /* border: 1px solid red; */
+}
+#shop_by_img{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid green; */
+}
+#shop_by_img>div{
+    width: 45%;
+
+}
+#shop_by_img>div>img{
+    width: 100%;
+}
+.shop1{
+    margin-right: 5%;
+    margin-left: 2.5%;
+}
+/* --------------------------------shop by container images---------------------------------------------- */
+#shop_by_img_container2{
+    width:  100%;
+   
+}
+#shop_by_img2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+   
+}
+#shop_by_img2>div{
+    width: 45%;
+    margin-top: 1%;
+}
+#shop_by_img2>div>img{
+    width: 100%;
+}
+.shop3{
+    margin-right: 5%;
+    margin-left: 2.5%;
+}
+/* ----------------------------------love is greater--------------------------------------------------- */
+#love_is_greater{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#love_is_greater>p{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -4px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+#love_is_greater>h1{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* ---------------------------what is love------------------------------------- */
+#what_is_love{
+    width: 100%;
+}
+#love_img{
+    width: 88%;
+    margin:60px auto;
+}
+#love_img>img{
+    width: 100%;
+    border-radius: 20px;
+}
+/*------------------------------------------------touch cards------------------------------------------*/
+#touch_cards{
+    position: absolute;
+    width: 25%;
+    /* border: 1px solid green; */
+    /* display: flex;
+    flex-direction: column; */
+}
+/* .tcards_img>img{
+    width: 100%;
+    height: 100%;
+    
+} */
+
+#touch_cards{
+    width: 298px;
+    border-radius: 10px;
+}
+.tcards_img{
+   width: 100%;
+   height: 299px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+#touch_cards>img{
+width: 100%;
+height: 298px;
+border-radius: 10px;
+}
+.tcards_text{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+.tcards_text>p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+}
+.tcards_price>p{
+    text-align: center;
+    color: #ff6781;
+    font-weight: 700;
+    font-size: 16px;
+}
+.tcart{
+    background: #FF6781 !important;
+    font-weight: 600;
+    padding: 1%;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    cursor: pointer;
+}
+.tcart>a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+/* ------------------------------------------------------------------------------------ */
+/*--------------------------------------------------------clean beauty------------------------------------------- */
+#clean_beauty{
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-top: 90px;
+}
+#clean_beauty>h1{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+#clean_beauty>p{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -4px;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    text-transform: uppercase;
+}
+#dots_keys{
+    text-align: center;
+    margin-top: 35px;
+}
+#dots_keys>p{
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -4px;
+    font-size: 22px;
+    font-weight:400;
+    color:#444444;
+  
+}
+#dots_keys>p>span{
+    font-style: italic;
+    text-transform: lowercase;
+    color: black;
+    font-weight: bold;
+}
+#luxurious{
+    text-align: center;
+    margin-top: 45px;
+}
+#luxurious>p{
+    text-transform: capitalize;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -4px;
+    font-size: 22px;
+    font-weight:400;
+    color:#444444;
+}
+#luxurious>p>span{
+    font-style: italic;
+    text-transform: lowercase;
+    color: black;
+    font-weight: bold;
+}
+/*---------------------------------------------logo list new---------------------------------------------*/
+#logo_list_container{
+    width: 100%;
+    margin-top: 70px;
+}
+.logo_list_new{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+/* #logo_container{
+    border: 1px solid green;
+} */
+#logo_text{
+    text-align: center;
+}
+/*---------------------------------------------------------gif---------------------------------------------- */
+.gif_slider{
+    width: 100%;
+}
+#gif_container{
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+#gif_text{
+    width: 60%;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#gif_text>p{
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    font-size: 21px;
+    text-align: center;
+    color: #646464;
+    font-weight: 400;
+    
+}
+#gif_text>h1{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #3C3C3C;
+    font-size: 35px;
+}
+#gif_img{
+    width: 40%;
+    /* border: 1px solid green; */
+}
+#gif_img>img{
+    border-radius: 10px;
+    width: 100%;
+}
+#gif_car{
+    margin-top: 90px;
+}
+#next_btn{
+    border-color:#3C3C3C ;
+    /* border: 1px solid red; */
+}
+/* ------------------------------------------------as seen in------------------------------ */
+#as_seen_in{
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #3C3C3C;
+    font-style: italic;
+    font-size: 10px;
+    margin-top: 70px;
+}
+#as_seen_in>h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+/*------------------------------------------------------latest greatest------------------------------------------------------*/
+#latest_greatest{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 70px;
+}
+#latest_greatest>div>h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3C3C3C;
+    line-height: 28px;
+}
+/*-----------------------------------------brand logos------------------------------*/
+#brand_logos{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    padding-left: 2%;
+    padding-right: 3%;
+}
+
+/*-------------------------------------------------------customer_service------------------------------------------ */
+#customer_service{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif; 
+ /* border:  1px solid red; */
+ margin-top: 70px;
+}
+#customer_service>p{
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: -4px;
+    font-size: 20px;
+    color: black;
+}
+#customer_service>h1{
+       color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+/*-----------------------------------------------------cute girl-------------------------------------------------------*/
+#cute_girl{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+
+.girl{
+    /* border: 1px solid green; */
+    width: 60%;
+}
+.btn_car>img{
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+

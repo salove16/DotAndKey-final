@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  #main {
+
+    width: 100%;
+  }
+
+  #carouselExampleIndicators {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  #carouselExampleIndicators>div>button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #42433E;
+  }
+  /* .carousel-control-next-icon{
+    margin-top: 10%;
+  } */
+
+  #background1 {
+    background-image: url("https://cdn.shopify.com/s/files/1/0361/8553/8692/files/5_9852062b-daef-422d-bf00-c4b56acdeb28.png?v=1642765428");
+    /* height: ; */
+    /* width: 100%; */
+    /* padding: 20%; */
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 3%; */
+  }
+
+ 
+
+  .slide-slicker{
+    /* width: 100%; */
+    padding: 5%;
+    float: left;
+    height: 100%;
+    /* display: block; */
+    margin-bottom: 79%;
+  }
+  .hair-icon{
+    width: 5%;
+    margin-left: -1.7%;
+    /* margin-top: -1.7%; */
+    z-index: 1;
+    /* position: absolute; */
+  }
+  .hair-image{
+    z-index: 1;
+    /* padding: 2%; */
+  }
+  .hair-text{
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 2%;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    font-weight: 800;
+    
+  }
+  .hair-page-title {
+    font-family: "Tiempos Semibold Italics";
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.hair-page-text {
+    font-family: "Gilroy Regular";
+    text-align: center;
+    line-height: 1.2;
+    font-size: medium;
+    padding: 2% 12%;
+    font-weight: 800;
+}
+#leftNav>img{
+  width: 30%;
+}
+.page-text-title{
+    /* background-color: aquamarine; */
+    width: 100%;
+
+    margin: auto;
+    /* text-align: center; */
+}
+#hair-items-product{
+  height: 70%;
+  width: 70%;  
+  background-color: rgb(194, 183, 172);
+  display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    margin: auto;
+}
+.div-box{
+    
+    background-color: bisque;
+}
+
+.imagediv{
+    height: 40%;
+    width: 60%;
+}
+.inner-grid-div{
+    
+    height: 60%;
+    width: 60%;
+    background-color: aquamarine;
+}
+.discountdiv{
+    background-color: grey;
+    height: 5%;
+    width: 5%;
+    color: white;
+    /* position: absolute; */
+    margin-left: 26%;
+    
+}
+.price-div{
+    display: flex;
+}
+
+
+
+
+
+
+.productList {
+  width: 100%;
+  margin-bottom: 78px;
+}
+#product-grid {
+  width: 50%;
+  height: fit-content;
+  margin: auto;
+  display: grid;
+  gap: 55px;
+  grid-template-columns: repeat(2, 1fr);
+}
+#mainDiv {
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#mainDiv > img {
+  height: 311.5px;
+  width: 100%;
+}
+#mainDiv > i {
+  color: orange;
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+}
+#mainPrice {
+  display: flex;
+  gap: 10px;
+}
+#nameDiv
+{
+  font-weight: 600;
+  color: #3C3C3C;
+  font-size: small;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+  height: 11%;
+}
+#review,
+#rating {
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+  color: #3C3C3C;
+}
+#review {
+  color: blue;
+}
+#mainPrice {
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+  margin-left: 32%;
+}
+#mainPrice > div:nth-child(1) {
+  color: grey;
+  font-size: small;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+}
+#mainPrice > div:nth-child(2) {
+  color: #FF6781;
+  font-size: small;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+}
+#Addcart {
+  width: 100%;
+  background-color: #ED2A7A;
+  margin-top: 1%;
+  padding: 1%;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: small;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+  color: white;
+  border: 0px;
+}
+#saveDiv{
+  color: #fff;
+font-weight: bold;
+font-size: small;
+background-color: #919191;
+padding: 7px 9px 7px 11px;
+position: absolute; 
+
+top: 0;
+right: 0;
+letter-spacing: .2em;
+z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+#background2 {
+  background-image: url("https://cdn.shopify.com/s/files/1/0361/8553/8692/files/6_48edab9c-9955-4397-b35b-ecf5931c6812.png?v=1643015795");
+  /* padding: 32%; */
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+#background2 h5,h6,h2{
+  margin-bottom: 0%;
+  text-align: center;
+ 
+}
+
+
+
+
+
+.swiper {
+  width: 90%;
+  height: 100%;
+  margin: 10% 0 16%;
+  /* padding: 10%; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+  
+/* height: 0% !important; */
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  /* display: flex; */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  z-index: 1;
+  border-radius: 5%;
+}
+
+.swiper-slide {
+  display: block;
+  width: 100%;
+ height: 100%;
+ /* height: 500px; */
+  object-fit: cover;
+  background-color: rgb(194, 216, 122);
+  
+}
+#sonDiv{
+  height: 300px;
+  /* padding: 20% 0; */
+}
+h4{
+color:#42433E ;
+margin-top: 35%;
+font-family: "Tiempos Medium Italics";
+font-weight: bold;
+}
+h5{
+color:#146A68 ;
+margin-bottom: 10%;
+font-family: "Gilroy SemiBold";
+}
+#sonDiv p{
+  font-family: "Gilroy Regular";
+}
+.swiper-icon img{
+  width: 25%;
+    margin-left:-50%;
+
+    /* margin-top: -1.7%; */
+    
+    z-index: 1;
+    /* position: absolute; */
+}

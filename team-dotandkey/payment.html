@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/193a1c0cfc.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/d_and_k_and_logo_1_32x32.png?v=1593074179"
+    />
+    <link rel="stylesheet" href="/Styles/payment.css" />
+    <title>Information - Dot & Key Payment</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftDiv">
+        <div id="innerLeft">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Dot_Key_Logo.png?124197"
+            alt=""
+          />
+          <div id="mini">
+            <span>cart</span>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Information</span>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Shipping</span>
+            <i class="fa-solid fa-chevron-right"></i>
+            <span>Payment</span>
+          </div>
+          <div id="paymentHead">
+            <div>Contact information</div>
+            <div>Already have an account? <a href="login.html">Log in</a></div>
+          </div>
+          <div class="inputDiv">
+            <input id="email" type="email" placeholder="Email" />
+          </div>
+          <div id="check">
+            <input type="checkbox" name="check" id="check" />
+            <span for="check"
+              >Keep me up to date on news and exclusive offers</span
+            >
+          </div>
+          <div id="shipHead">Shipping address</div>
+          <div id="selectDiv">
+            <select name="" id="">
+              <option data-code="IN" selected="selected" value="India">
+                India
+              </option>
+              <option data-code="PK" value="Pakistan">Pakistan</option>
+              <option data-code="AE" value="United Arab Emirates">
+                United Arab Emirates
+              </option>
+              <option data-code="SG" value="Singapore">Singapore</option>
+              <option disabled="disabled" value="---">---</option>
+              <option data-code="AF" value="Afghanistan">Afghanistan</option>
+              <option data-code="AZ" value="Azerbaijan">Azerbaijan</option>
+              <option data-code="BH" value="Bahrain">Bahrain</option>
+              <option data-code="BD" value="Bangladesh">Bangladesh</option>
+              <option data-code="BT" value="Bhutan">Bhutan</option>
+              <option data-code="IO" value="British Indian Ocean Territory">
+                British Indian Ocean Territory
+              </option>
+              <option data-code="BN" value="Brunei">Brunei</option>
+              <option data-code="KH" value="Cambodia">Cambodia</option>
+              <option data-code="CN" value="China">China</option>
+              <option data-code="CX" value="Christmas Island">
+                Christmas Island
+              </option>
+              <option data-code="CC" value="Cocos (Keeling) Islands">
+                Cocos (Keeling) Islands
+              </option>
+              <option data-code="HK" value="Hong Kong">Hong Kong SAR</option>
+              <option data-code="IN" value="India">India</option>
+              <option data-code="ID" value="Indonesia">Indonesia</option>
+              <option data-code="IQ" value="Iraq">Iraq</option>
+              <option data-code="IL" value="Israel">Israel</option>
+              <option data-code="JP" value="Japan">Japan</option>
+              <option data-code="JO" value="Jordan">Jordan</option>
+              <option data-code="KZ" value="Kazakhstan">Kazakhstan</option>
+              <option data-code="KW" value="Kuwait">Kuwait</option>
+              <option data-code="KG" value="Kyrgyzstan">Kyrgyzstan</option>
+              <option data-code="LA" value="Lao People's Democratic Republic">
+                Laos
+              </option>
+              <option data-code="LB" value="Lebanon">Lebanon</option>
+              <option data-code="MO" value="Macao">Macao SAR</option>
+              <option data-code="MY" value="Malaysia">Malaysia</option>
+              <option data-code="MV" value="Maldives">Maldives</option>
+              <option data-code="MN" value="Mongolia">Mongolia</option>
+              <option data-code="MM" value="Myanmar">Myanmar (Burma)</option>
+              <option data-code="NP" value="Nepal">Nepal</option>
+              <option data-code="OM" value="Oman">Oman</option>
+              <option data-code="PK" value="Pakistan">Pakistan</option>
+              <option data-code="PS" value="Palestinian Territory, Occupied">
+                Palestinian Territories
+              </option>
+              <option data-code="PH" value="Philippines">Philippines</option>
+              <option data-code="QA" value="Qatar">Qatar</option>
+              <option data-code="RU" value="Russia">Russia</option>
+              <option data-code="SA" value="Saudi Arabia">Saudi Arabia</option>
+              <option data-code="SG" value="Singapore">Singapore</option>
+              <option data-code="KR" value="South Korea">South Korea</option>
+              <option data-code="LK" value="Sri Lanka">Sri Lanka</option>
+              <option data-code="TW" value="Taiwan">Taiwan</option>
+              <option data-code="TJ" value="Tajikistan">Tajikistan</option>
+              <option data-code="TH" value="Thailand">Thailand</option>
+              <option data-code="TM" value="Turkmenistan">Turkmenistan</option>
+              <option data-code="AE" value="United Arab Emirates">
+                United Arab Emirates
+              </option>
+              <option data-code="UZ" value="Uzbekistan">Uzbekistan</option>
+              <option data-code="VN" value="Vietnam">Vietnam</option>
+              <option data-code="YE" value="Yemen">Yemen</option>
+            </select>
+          </div>
+          <div id="name">
+            <input id="fname" type="text" placeholder="First name" />
+            <input id="secname" type="text" placeholder="Second name" />
+          </div>
+          <div class="inputDiv">
+            <input id="addrs" type="text" placeholder="Adress" />
+          </div>
+          <div class="inputDiv">
+            <input
+              id="apptment"
+              type="text"
+              placeholder="Apartment,suite,etc.(optional)"
+            />
+          </div>
+          <div id="city">
+            <input id="cityName" type="text" placeholder="City" />
+            <select name="state" id="state">
+              <option selected="">State</option>
+              <option value="AN">Andaman and Nicobar Islands</option>
+              <option data-alternate-values='["Andhra Pradesh"]' value="AP">
+                Andhra Pradesh
+              </option>
+              <option data-alternate-values='["Arunachal Pradesh"]' value="AR">
+                Arunachal Pradesh
+              </option>
+              <option data-alternate-values='["Assam"]' value="AS">
+                Assam
+              </option>
+              <option data-alternate-values='["Bihar"]' value="BR">
+                Bihar
+              </option>
+              <option data-alternate-values='["Chandigarh"]' value="CH">
+                Chandigarh
+              </option>
+              <option
+                data-alternate-values='["Chhattisgarh","Chattisgarh","CT"]'
+                value="CG"
+              >
+                Chhattisgarh
+              </option>
+              <option
+                data-alternate-values='["Dadra and Nagar Haveli"]'
+                value="DN"
+              >
+                Dadra and Nagar Haveli
+              </option>
+              <option data-alternate-values='["Daman and Diu"]' value="DD">
+                Daman and Diu
+              </option>
+              <option data-alternate-values='["Delhi"]' value="DL">
+                Delhi
+              </option>
+              <option data-alternate-values='["Goa"]' value="GA">Goa</option>
+              <option data-alternate-values='["Gujarat"]' value="GJ">
+                Gujarat
+              </option>
+              <option data-alternate-values='["Haryana"]' value="HR">
+                Haryana
+              </option>
+              <option data-alternate-values='["Himachal Pradesh"]' value="HP">
+                Himachal Pradesh
+              </option>
+              <option data-alternate-values='["Jammu and Kashmir"]' value="JK">
+                Jammu and Kashmir
+              </option>
+              <option data-alternate-values='["Jharkhand"]' value="JH">
+                Jharkhand
+              </option>
+              <option data-alternate-values='["Karnataka"]' value="KA">
+                Karnataka
+              </option>
+              <option data-alternate-values='["Kerala"]' value="KL">
+                Kerala
+              </option>
+              <option data-alternate-values='["Ladakh"]' value="LA">
+                Ladakh
+              </option>
+              <option data-alternate-values='["Lakshadweep"]' value="LD">
+                Lakshadweep
+              </option>
+              <option data-alternate-values='["Madhya Pradesh"]' value="MP">
+                Madhya Pradesh
+              </option>
+              <option data-alternate-values='["Maharashtra"]' value="MH">
+                Maharashtra
+              </option>
+              <option data-alternate-values='["Manipur"]' value="MN">
+                Manipur
+              </option>
+              <option data-alternate-values='["Meghalaya"]' value="ML">
+                Meghalaya
+              </option>
+              <option data-alternate-values='["Mizoram"]' value="MZ">
+                Mizoram
+              </option>
+              <option data-alternate-values='["Nagaland"]' value="NL">
+                Nagaland
+              </option>
+              <option
+                data-alternate-values='["Odisha","OD","Orissa"]'
+                value="OR"
+              >
+                Odisha
+              </option>
+              <option data-alternate-values='["Puducherry"]' value="PY">
+                Puducherry
+              </option>
+              <option data-alternate-values='["Punjab"]' value="PB">
+                Punjab
+              </option>
+              <option data-alternate-values='["Rajasthan"]' value="RJ">
+                Rajasthan
+              </option>
+              <option data-alternate-values='["Sikkim"]' value="SK">
+                Sikkim
+              </option>
+              <option data-alternate-values='["Tamil Nadu"]' value="TN">
+                Tamil Nadu
+              </option>
+              <option data-alternate-values='["Telangana"]' value="TS">
+                Telangana
+              </option>
+              <option data-alternate-values='["Tripura"]' value="TR">
+                Tripura
+              </option>
+              <option data-alternate-values='["Uttar Pradesh"]' value="UP">
+                Uttar Pradesh
+              </option>
+              <option data-alternate-values='["Uttarakhand"]' value="UK">
+                Uttarakhand
+              </option>
+              <option data-alternate-values='["West Bengal"]' value="WB">
+                West Bengal
+              </option>
+            </select>
+            <input id="pinCode" type="text" placeholder="PIN Code" />
+          </div>
+          <div class="inputDiv">
+            <input id="contactNum" type="number" placeholder="Phone" />
+          </div>
+          <div id="check">
+            <input type="checkbox" name="check" id="check" />
+            <span for="check"> Save this information for next time </span>
+          </div>
+
+          <div id="last">
+            <div>
+              <i class="fa-solid fa-chevron-left"></i>
+              <a href="cart.html"><span> Return to cart</span></a>
+            </div>
+          </div>
+          <hr />
+          <div id="foot">
+            <spam>Refund Policy</spam>
+            <spam>Shipping policy</spam>
+            <spam>Privacy Policy</spam>
+            <spam> Terms of service</spam>
+          </div>
+        </div>
+      </div>
+      <div id="rightDiv">
+        <div id="innerRight">
+          <div id="shipHead">Payment Details</div>
+          <div id="cardName">
+            <input id="cardNameIn" type="text" placeholder="Name On The Card" />
+          </div>
+          <div class="inputDiv">
+            <input id="cardNumber" type="number" placeholder="Card Number" />
+          </div>
+          <div class="inputDiv">
+            <input id="cvv" type="password" placeholder="CVV" />
+          </div>
+          <div id="city">
+            <input id="date" type="text" placeholder="Exp Date" />
+            <input id="month" type="text" placeholder="Exp Month" />
+          </div>
+          <div class="inputDiv">
+            <input id="cardMobile" type="number" placeholder="Phone" />
+          </div>
+          <div id="check">
+            <input type="checkbox" name="check" id="check" />
+            <span for="check"> Save this information for next time </span>
+          </div>
+          <div id="placeOrder">
+            <button>Place Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  let cartData = JSON.parse(localStorage.getItem("cartArr"));
+
+  document.querySelector("#placeOrder").addEventListener("click", () => {
+    let details = [];
+    let mail = document.querySelector("#email").value;
+    details.push(mail);
+    let fname = document.querySelector("#fname").value;
+    details.push(fname);
+    let secname = document.querySelector("#secname").value;
+    details.push(secname);
+    let addrs = document.querySelector("#addrs").value;
+    details.push(addrs);
+    let apptment = document.querySelector("#apptment").value;
+    details.push(apptment);
+    let cityName = document.querySelector("#cityName").value;
+    details.push(cityName);
+    let pinCode = document.querySelector("#pinCode").value;
+    details.push(pinCode);
+    let contactNum = document.querySelector("#contactNum").value;
+    details.push(contactNum);
+    let cardName = document.querySelector("#cardNameIn").value;
+    details.push(cardName);
+    let cardNumber = document.querySelector("#cardNumber").value;
+    details.push(cardNumber);
+    let cvv = document.querySelector("#cvv").value;
+    details.push(cvv);
+    let date = document.querySelector("#date").value;
+    details.push(date);
+    let month = document.querySelector("#month").value;
+    details.push(month);
+    let cardMobile = document.querySelector("#cardMobile").value;
+    details.push(cardMobile);
+
+    let flag = true;
+    for (let i = 0; i < details.length; i++) {
+      if (details[i] == "") {
+        alert("Enter All fields");
+        flag = false;
+        break;
+      }
+    }
+
+    if (flag == true) {
+      alert("Order Placed SuccessFully, ThankYou");
+      cartData = [];
+      localStorage.setItem("cartArr", JSON.stringify(cartData));
+      location.href = "index.html";
+    }
+  });
+</script>

@@ -1,0 +1,139 @@
+#second{
+    display: flex;
+  margin-left: 210px;
+   
+}
+
+#round{
+   margin-top: 100px; 
+  color: black;
+}
+#round>h2{
+text-align: center;
+color: black;
+}
+
+#tube>img{
+  height: 550px;
+} 
+#IKWI{
+  background-color: rgb(216,216,216);
+  display: flex;
+  margin: auto;
+ 
+
+}
+.ikwi{
+margin-left: 200px;
+/* margin-top: 20px; */
+}
+.para{
+width: 500px;
+}
+h1{
+  color:white;
+  font-size: 75px;
+  text-shadow: 0cm;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+#three{
+  display: flex;
+ 
+}
+#circle{
+margin-top: 50px; 
+margin-left: 20px;
+width:610px;
+text-align: center;
+}
+#girl{
+margin-top: 80px;
+}
+#cross>img{
+width: 350px;
+margin-right: 0%;
+}
+#theory{
+width: 250px;
+text-align: center;
+margin: auto;
+}
+h2{
+font-size: 45px ;
+
+
+}
+#line{
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+}
+#footer{
+display: flex;
+justify-content: space-around;
+margin-top: 5%;
+line-height: 3;
+padding: 0 10%;
+}
+
+#footer ul{
+list-style-type: none;
+letter-spacing:3.8px;
+}
+
+#footer li{
+line-height:52.3px;
+font-size: 17px;
+letter-spacing:2px;
+font-weight:400;
+cursor: pointer;
+}
+
+#footer h3{
+font-family: Montserrat, sans-serif;
+}
+
+#footer button{
+border: none;
+background-color: black;
+color: white;
+height: 50px;
+width: 25%;
+}
+#footer input{
+border: none;
+width: 60%;
+font-size: 17px;
+font-weight: 600;
+color: black;
+padding: 0 2% 3% 5%;
+border-bottom: 3px solid;
+}
+
+#footer input:focus{
+outline: none;
+}
+
+#footer img{
+width: 32%;
+border: solid; 
+margin: 5% 0 0 4%;
+height: 30px;
+}
+#foot{
+
+display: flex;
+justify-content: space-around;
+background-color:rgb(65,64,66);
+color:white;
+
+}
+#carouselExampleIndicators button{
+border-radius: 50%;
+width: 10px; 
+height: 10px;
+margin: 8px;
+color: rgb(147,149,152);
+
+}

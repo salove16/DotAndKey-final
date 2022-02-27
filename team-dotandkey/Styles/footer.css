@@ -1,0 +1,53 @@
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    line-height: 3;
+}
+
+#footer ul{
+    list-style-type: none;
+    letter-spacing:3.8px;
+}
+
+#footer li{
+    line-height:52.3px;
+    font-size: 17px;
+    letter-spacing:2px;
+    font-weight:400;
+    cursor: pointer;
+}
+
+#footer h3{
+    font-family: Montserrat, sans-serif;
+}
+
+#footer button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 25%;
+}
+ 
+#footer input{
+    border: none;
+    width: 60%;
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+    padding: 0 2% 3% 5%;
+    border-bottom: 3px solid;
+}
+
+#footer input:focus{
+    outline: none;
+}
+
+#footer img{
+    width: 32%;
+    /* border: solid; */
+    margin: 5% 0 0 4%;
+    height: 30px;
+}

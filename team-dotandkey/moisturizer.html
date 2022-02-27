@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/193a1c0cfc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="icon"
+      href="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/d_and_k_and_logo_1_32x32.png?v=1593074179"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/moisturizer.css" />
+    <link rel="stylesheet" href="/Styles/navBar.css" />
+    <link rel="stylesheet" href="/Styles/footer.css" />
+    <title>Moisturizer Homepage -Dot & Key</title>
+    <style>
+      #filter_sorting {
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        top: 95vh;
+        left: 50%;
+        background-color: rgb(245, 245, 245);
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+        gap: 2%;
+      }
+
+      #filter_sorting > select {
+        height: 70%;
+        width: 15%;
+        text-align: center;
+        font-size: 17px;
+        font-weight: 500;
+        border: 1px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navInterval"></div>
+    <div id="navbar"></div>
+    <div class="mainBox">
+      <div id="one"><img src="https://bit.ly/35iFllZ" alt="" /></div>
+      <div id="two">MOISTURIZERS</div>
+      <div id="three"></div>
+      <div id="footer"></div>
+    </div>
+     <div id="filter_sorting">
+
+    </div>
+  </body>
+</html>
+
+<script type="module">
+ let arr = [
+
+{imgUrl:"https://bit.ly/33Ig1FO", name:"VITAMIN C+E SUPER BRIGHT MOISTURIZER", price:595.00},
+{imgUrl:"https://bit.ly/3h2LwNO", name:"NIGHT RESET RETINOL + CERAMIDE TREATMENT CREAM", price:897.00},
+{imgUrl:"https://bit.ly/3p4ECMg", name:"CICA CALMING NIGHT GEL WITH NIACINAMIDE", price:590.00},
+{imgUrl:"https://bit.ly/3v803QE", name:"WATERMELON SUPERGLOW MATTE MOISTURIZER", price:550.00},
+{imgUrl:"https://bit.ly/3IdSziO", name:"72HR HYDRATION GEL + PROBIOTICS", price:707.00},
+{imgUrl:"https://bit.ly/35ga2sj", name:"AVOCADO SMOOTHIE DAY CREAM SPF 20", price:845.00},
+{imgUrl:"https://bit.ly/3sYip3N", name:"DAY & NIGHT CARE COMBO", price:1161.00},
+{imgUrl:"https://bit.ly/3h8RdtH", name:"HAND CREAM + SANITIZER, LAVENDER", price:395.00},
+{imgUrl:"https://bit.ly/3BDsffs", name:"FOOT CREAM + DEODORIZER, MINT", price:325.00},
+{imgUrl:"https://bit.ly/3v5lUbp", name:"HAND CREAM + SANITIZER, ROSE", price:315.00},
+{imgUrl:"https://bit.ly/3BE23kT", name:"HAND CREAM + SANITIZER, MANDARIN", price:495.00},
+
+];
+  import { navBar, navInt, navcar } from "./Componentes/navBar.js";
+
+  import { footer } from "./Componentes/footer.js";
+  import {
+    createProductPage,
+    createProductCard,
+    mainDisp,
+    data,
+    filter_sort,
+  } from "./Scripts/main.js";
+  let parent = document.querySelector("#three");
+  data(parent,arr);
+  document.querySelector("#navInterval").innerHTML = navInt();
+  let i = 0;
+  navcar(i);
+  document.querySelector("#navbar").innerHTML = navBar();
+  document.querySelector("#footer").innerHTML = footer();
+  document.querySelector("#leftNav > img ").addEventListener("click", () => {
+    location.href = "index.html";
+  });
+  document.querySelector("#cartBag ").addEventListener("click", () => {
+    location.href = "cart.html";
+  });
+
+  document.querySelector("#filter_sorting").innerHTML = filter_sort();
+
+ 
+
+  document.querySelector("#select_featured").onchange = () => {
+    //  console.log(1)
+    if (document.querySelector("#select_featured").value == "LTH") {
+      let filteredarr = arr.sort(function (a, b) {
+        return a.price - b.price;
+      });
+      // console.log(filteredarr);
+      data(parent, filteredarr);
+    }
+
+    if (document.querySelector("#select_featured").value == "HTL") {
+      let filteredarr = arr.sort(function (a, b) {
+        return b.price - a.price;
+      });
+      //  console.log(filteredarr);
+      data(parent, filteredarr);
+    }
+
+    if (document.querySelector("#select_featured").value == "ATZ") {
+      let filteredarr = arr.sort(function (a, b) {
+        if (a.name > b.name) {
+          return 1;
+        }
+        if (b.name > a.name) {
+          return -1;
+        }
+        return 0;
+      });
+      //  console.log(filteredarr);
+      data(parent, filteredarr);
+    }
+
+    if (document.querySelector("#select_featured").value == "ZTA") {
+      let filteredarr = arr.sort(function (a, b) {
+        if (a.name > b.name) {
+          return -1;
+        }
+        if (b.name > a.name) {
+          return 1;
+        }
+        return 0;
+      });
+      //   console.log(filteredarr);
+      data(parent, filteredarr);
+    }
+  };
+</script>

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 80%;
+    margin: auto;
+}
+.bag{
+    font-weight: 700;
+    text-align: center;
+    font-size: xx-large
+}
+
+#refeered{
+    width: 300px;
+    height: 40px;
+    font-size: xx-large;
+}
+
+
+#cartimg{
+    height: 150px;
+    width: 150px;
+}
+#cartimg img{
+    height: 100%;
+    width: 100%;
+}
+
+#imageTdDiv{
+    display: flex;
+    gap:30px;
+}
+p,h3,button{
+    margin: 2% 0 5%;
+}
+
+/* td{
+    padding-bottom: 5px;
+    background-color: blueviolet;
+} */
+
+#row>td:nth-child(1){
+    /* background-color: blueviolet; */
+    width: 700px;
+}
+#row>td:nth-child(2){
+    /* background-color: blueviolet; */
+    width: 500px;
+    text-align: center;
+
+    
+font-size: x-large;
+}
+
+#row>td:nth-child(2)>h4{
+    border: 2px solid black;
+    width: 100px;
+    height: 40px;
+    margin-left: 40%;
+    padding-top: 3%;
+}
+
+#row>td:nth-child(3){
+    /* background-color: blueviolet; */
+    /* width: 700px; */
+text-align: center;
+font-size: x-large;
+
+}
+h4{
+    font-weight: normal;
+}
+hr{
+    margin: 2.5% 0;
+}
+
+#cartTotalDiv{
+    display: flex;
+    gap: 150px;
+    /* font-size: xx-large; */
+    justify-content: space-between;
+}
+
+
+#cartTotalDiv>div:nth-child(2){
+    display: flex;
+    gap: 250px;
+    font-size:large;
+}
+#text{
+    display: flex;
+    /* gap: 150px; */
+    /* font-size: xx-large; */
+    justify-content: space-between;
+    /* background-color: aqua; */
+    text-align: right;
+    margin-top: 2%;
+    font-size: large;
+}
+
+#checkout{
+    width: 20%;
+    padding: 1% 0;
+    font-size: xx-large;
+    align-content: flex-end;
+
+}
+#checkout:hover{
+    background-color:#3c3c3c;
+    color: aliceblue;
+}
+
+#check-div
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#refDiv>p{
+margin: 1%;
+}
