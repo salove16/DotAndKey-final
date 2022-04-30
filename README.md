@@ -28,17 +28,12 @@ To run, follow these steps:
 
 
 ## Built with 
-### Frontend part
 
 - JavaScript ES6(DOM,HOF)
 - HTML
 - CSS
 
-### Backend part
-- Express JS
-- MongoDb
-- Node JS
-- AWS
+
 ## Creators
 
 
