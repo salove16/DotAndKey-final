@@ -1,5 +1,5 @@
 # [Dot & key-clone](https://dontandkey.netlify.app/)
-
+<img src="https://miro.medium.com/max/875/1*90jmKbvXVbUqCLzjpk85Rw.png"/>
 <table>
 <tr>
 <td>
@@ -7,6 +7,7 @@ Dot & Key is a new-age skincare brand with products such as serums, face masks, 
 </td>
 </tr>
 </table>
+
 
 ## Dot & Key
 
