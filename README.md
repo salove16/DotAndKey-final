@@ -1,4 +1,4 @@
-# [dot & key-clone](https://dontandkey.netlify.app/)
+# [Dot & key-clone](https://dontandkey.netlify.app/)
 
 <table>
 <tr>
